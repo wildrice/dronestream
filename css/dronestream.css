@@ -1,0 +1,78 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html { height: 100%; }
+body { height: 100%; margin: 0; padding: 0; }
+#menu {
+    background: #333;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.6);
+    color: rgba(255,255,255,0.8);
+    font-family: helvetica, arial, sans-serif;
+    font-size: 12px;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 10px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+#menu a {
+    color: rgba(255,255,255,0.8);
+    text-decoration: dotted;
+}
+#menu a:hover {
+    color: rgba(255,255,255,1);
+    text-decoration: none;
+}
+#menu h1 {
+    display: inline;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 24px;
+    font-weight: normal;
+    margin: 0;
+    padding: 0 25px 0 0;
+}
+#menu span {
+    padding: 0 25px;
+}
+
+/************************************************************************************************************************
+ * MAP STYLES
+ ************************************************************************************************************************/
+#map-canvas {
+    bottom: 0;
+    margin-top: 50px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+/* info window styles */
+.gmap-info-window-content {
+    min-height: 200px;
+    min-width: 300px;
+    max-width: 500px;
+}
+.gmap-info-window-content h2 {
+    color: #c00;
+    font-family: helvetica, arial, sans-serif;
+    margin: 0 0 20px 0;
+    padding: 0;
+}
+.gmap-info-window-content p {
+    line-height: 1.3em;
+    margin: 10px 0;
+    padding: 0;
+}
+.gmap-info-window-content a {
+    color: #900;
+    text-decoration: underline;
+}
+.gmap-info-window-content a:hover {
+    color: #c00;
+    text-decoration: none;
+}
